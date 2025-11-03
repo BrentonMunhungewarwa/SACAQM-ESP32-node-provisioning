@@ -272,14 +272,13 @@ void loop() {
             Serial.print(F("Error reading values: "));
             errorToString(error, errorMessage, sizeof(errorMessage));
             Serial.println(errorMessage);
-        }
-
+        }else{
         Serial.println("\n[SENSOR READINGS]");
         Serial.printf("PM1.0: %.2f  PM2.5: %.2f  PM4.0: %.2f  PM10.0: %.2f\n", pm1p0, pm2p5, pm4p0, pm10p0);
         Serial.printf("Temp: %.2f  Humi: %.2f  VOC: %.2f  NOx: %.2f  CO2: %d\n", temperature, humidity, vocIndex, noxIndex, co2);
-
         sendSensorData(pm1p0, pm2p5, pm4p0, pm10p0,
                        humidity, temperature, vocIndex, noxIndex, co2);
+        }
 
         Serial.println("\nSleeping for 5 minutes...");
         unsigned long startTime = millis();
