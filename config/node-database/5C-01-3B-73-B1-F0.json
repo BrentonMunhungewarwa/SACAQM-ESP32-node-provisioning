@@ -1,0 +1,15 @@
+{
+  "mac": "5C:01:3B:73:B1:F0",
+  "description": "Testing Node, Brenton",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HUAWEI-1EAD",
+    "password": "2G447J7REEY"
+  },
+  "gps": {
+    "lat": -26.17951,
+    "lon": 27.98759
+  },
+  "sampling_rate": 300
+}
