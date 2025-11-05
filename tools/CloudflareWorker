@@ -1,0 +1,90 @@
+export default {
+async fetch(request, env) {
+
+// --- Handle preflight (CORS) requests ---
+if (request.method === "OPTIONS") {
+  return new Response(null, {
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization"
+    }
+  });
+}
+
+if (request.method !== "POST") {
+  return new Response("Only POST allowed", {
+    status: 405,
+    headers: { "Access-Control-Allow-Origin": "*" }
+  });
+}
+
+try {
+  const data = await request.json();
+  const mac = data.mac?.replace(/:/g, "-");
+  if (!mac) {
+    return new Response("Missing MAC address", {
+      status: 400,
+      headers: { "Access-Control-Allow-Origin": "*" }
+    });
+  }
+
+  const content = JSON.stringify(data, null, 2);
+  const base64Content = btoa(unescape(encodeURIComponent(content)));
+
+  // GitHub repository details
+  const githubUser = "BrentonMunhungewarwa";
+  const repo = "SACAQM-ESP32-node-provisioning";
+  const path = `config/node-database/${mac}.json`;
+  const token = env.GITHUB_TOKEN; // stored securely in Worker environment
+
+  const url = `https://api.github.com/repos/${githubUser}/${repo}/contents/${path}`;
+
+  const getResp = await fetch(url, {
+    headers: {
+      "Authorization": `token ${token}`,
+      "User-Agent": "cf-worker"
+    }
+  });
+
+  let body = {
+    message: `Update config for ${mac}`,
+    content: base64Content
+  };
+
+  if (getResp.status === 200) {
+    const existing = await getResp.json();
+    body.sha = existing.sha;
+  }
+
+  const putResp = await fetch(url, {
+    method: "PUT",
+    headers: {
+      "Authorization": `token ${token}`,
+      "User-Agent": "cf-worker",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(body)
+  });
+
+  if (putResp.ok) {
+    return new Response(`✅ Config stored for ${mac}`, {
+      status: 200,
+      headers: { "Access-Control-Allow-Origin": "*" }
+    });
+  } else {
+    const errorText = await putResp.text();
+    return new Response(`❌ GitHub error: ${errorText}`, {
+      status: 500,
+      headers: { "Access-Control-Allow-Origin": "*" }
+    });
+  }
+
+} catch (err) {
+  return new Response("⚠️ Error: " + err.message, {
+    status: 500,
+    headers: { "Access-Control-Allow-Origin": "*" }
+  });
+}
+}
+};
