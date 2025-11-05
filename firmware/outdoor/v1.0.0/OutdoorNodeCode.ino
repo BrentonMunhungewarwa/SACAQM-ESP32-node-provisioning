@@ -5,6 +5,8 @@
 #include <HTTPClient.h>
 #include <WiFiClientSecure.h>
 #include <Preferences.h>
+#include <ArduinoJson.h>
+#include <Update.h>
 
 // Server configuration
 const char* serverHost = "sacaqm.web.cern.ch";
@@ -235,6 +237,176 @@ void sendSensorData(float pm1p0, float pm2p5, float pm4p0, float pm10p0,
     }
 }
 
+void sendNodeConfigToCloudflare() {
+  const char* WORKER_URL = "https://air-quality-node-config-uploader.munhungewarwabrenton.workers.dev/";
+
+  WiFiClientSecure client;
+  client.setInsecure();
+  HTTPClient http;
+  http.begin(client, WORKER_URL);
+  http.addHeader("Content-Type", "application/json");
+
+  DynamicJsonDocument doc(512);
+  doc["mac"] = WiFi.macAddress();
+  doc["description"] = nodeDesc;
+  doc["indoor_outdoor"] = nodeType;
+  doc["firmware_version"] = nodeFWVer;
+
+  JsonObject wifi = doc.createNestedObject("wifi");
+  wifi["ssid"] = wifiSSID;
+  wifi["password"] = wifiPASS;
+
+ // Split nodeGPS into lat/lon
+  float lat = 0.0, lon = 0.0;
+  int commaIndex = nodeGPS.indexOf(',');
+  if (commaIndex != -1) {
+    lat = nodeGPS.substring(0, commaIndex).toFloat();
+    lon = nodeGPS.substring(commaIndex + 1).toFloat();
+} else {
+    Serial.println("⚠️ Invalid GPS format in NVS. Expected 'lat,lon'.");
+}
+
+JsonObject gps = doc.createNestedObject("gps");
+gps["lat"] = lat;
+gps["lon"] = lon;
+
+  doc["sampling_rate"] = 300; // or your interval in seconds
+
+  String jsonString;
+  serializeJson(doc, jsonString);
+
+  int httpResponseCode = http.POST(jsonString);
+  if (httpResponseCode > 0) {
+    Serial.printf("Config Upload Response: %d\n", httpResponseCode);
+    Serial.println(http.getString());
+  } else {
+    Serial.printf("Uploading to Config Database failed: %s\n", http.errorToString(httpResponseCode).c_str());
+  }
+  http.end();
+}
+
+void checkForUpdateFromGitHubConfig() {
+    Serial.println("\n🔍 Checking for firmware update via node config...");
+
+    // Get device MAC (with dashes to match your filename)
+    uint8_t mac[6];
+    WiFi.macAddress(mac);
+    char macDashed[18];
+    sprintf(macDashed, "%02X-%02X-%02X-%02X-%02X-%02X",
+            mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]);
+
+    // GitHub raw URL for this node’s config JSON
+    char configUrl[512];
+    snprintf(configUrl, sizeof(configUrl),
+        "https://raw.githubusercontent.com/BrentonMunhungewarwa/SACAQM-ESP32-node-provisioning/main/config/node-database/%s.json",
+        macDashed);
+
+    Serial.print("Fetching node config: ");
+    Serial.println(configUrl);
+
+    WiFiClientSecure client;
+    client.setInsecure();
+    HTTPClient http;
+
+    if (!http.begin(client, configUrl)) {
+        Serial.println("⚠️ Failed to connect to GitHub config URL.");
+        return;
+    }
+
+    int httpCode = http.GET();
+    if (httpCode != HTTP_CODE_OK) {
+        Serial.printf("⚠️ Failed to fetch config. HTTP code: %d\n", httpCode);
+        http.end();
+        return;
+    }
+
+    String payload = http.getString();
+    http.end();
+
+    DynamicJsonDocument doc(1024);
+    DeserializationError error = deserializeJson(doc, payload);
+    if (error) {
+        Serial.printf("⚠️ JSON parse error: %s\n", error.c_str());
+        return;
+    }
+
+    String latestVersion = doc["firmware_version"].as<String>();
+    Serial.printf("Current FW: %s | Latest FW: %s\n", nodeFWVer.c_str(), latestVersion.c_str());
+
+    // Compare versions
+    if (latestVersion == nodeFWVer) {
+        Serial.println("✅ Firmware is up to date.");
+        return;
+    }
+
+    Serial.println("🚀 New firmware available! Starting OTA update...");
+
+    // Construct firmware .bin URL from version
+    char firmwareUrl[512];
+    snprintf(firmwareUrl, sizeof(firmwareUrl),
+        "https://raw.githubusercontent.com/BrentonMunhungewarwa/SACAQM-ESP32-node-provisioning/main/firmware/outdoor/%s/OutdoorNodeCode.ino.bin",
+        latestVersion.c_str());
+
+    Serial.print("Downloading firmware from: ");
+    Serial.println(firmwareUrl);
+
+    if (!http.begin(client, firmwareUrl)) {
+        Serial.println("⚠️ Could not begin firmware download.");
+        return;
+    }
+
+    int code = http.GET();
+    if (code != HTTP_CODE_OK) {
+        Serial.printf("⚠️ Firmware download failed. HTTP code: %d\n", code);
+        http.end();
+        return;
+    }
+
+    int contentLength = http.getSize();
+    if (contentLength <= 0) {
+        Serial.println("⚠️ Invalid firmware size.");
+        http.end();
+        return;
+    }
+
+    bool canBegin = Update.begin(contentLength);
+    if (!canBegin) {
+        Serial.println("⚠️ Not enough space for OTA update.");
+        http.end();
+        return;
+    }
+
+    WiFiClient *stream = http.getStreamPtr();
+    size_t written = Update.writeStream(*stream);
+
+    if (written == contentLength) {
+        Serial.println("✅ Firmware downloaded successfully.");
+    } else {
+        Serial.printf("⚠️ Only %d/%d bytes written.\n", (int)written, contentLength);
+    }
+
+    if (Update.end()) {
+        if (Update.isFinished()) {
+            Serial.println("✅ OTA update complete! Rebooting...");
+
+            // Update stored FW version in NVS
+            prefs.begin("sacaqm", false);
+            prefs.putString("fwver", latestVersion);
+            prefs.end();
+
+            delay(2000);
+            ESP.restart();
+        } else {
+            Serial.println("⚠️ OTA update not finished properly.");
+        }
+    } else {
+        Serial.printf("⚠️ OTA update error: %s\n", Update.errorString());
+    }
+
+    http.end();
+}
+
+
 // --------------------------------------------------
 // Setup
 // --------------------------------------------------
@@ -250,6 +422,8 @@ void setup() {
     loadProvisioningData();   // 🔑 Load WiFi + metadata from NVS
     setupSensor();
     connectToWiFi();
+    sendNodeConfigToCloudflare();
+    checkForUpdateFromGitHubConfig();
 }
 
 // --------------------------------------------------
