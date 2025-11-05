@@ -2,7 +2,7 @@
   "mac": "EC:64:C9:7A:C3:FC",
   "description": "ESP32 test node",
   "indoor_outdoor": "indoor",
-  "firmware_version": "1.0.0",
+  "firmware_version": "v1.0.0",
   "wifi": {
     "ssid": "Brenton_PC",
     "password": "hi_there"
