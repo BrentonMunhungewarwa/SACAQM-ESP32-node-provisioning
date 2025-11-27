@@ -1,0 +1,15 @@
+{
+  "mac": "5C:01:3B:74:1B:E4",
+  "description": "Hekpoort library.",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HEKPO_LIB",
+    "password": "Admin@123"
+  },
+  "gps": {
+    "lat": -25.89625,
+    "lon": 27.60081
+  },
+  "sampling_rate": 300
+}
