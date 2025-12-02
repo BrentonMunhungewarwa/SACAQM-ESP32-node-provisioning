@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:5F:B8",
+  "description": "Desmond Tutu Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Desmond_Tutu_Lib",
+    "password": "Admin@123"
+  },
+  "gps": {
+    "lat": -26.07935,
+    "lon": 27.75474
+  },
+  "sampling_rate": 300
+}
