@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:80:28",
+  "description": "Node at Lizzy's place",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Clayton",
+    "password": "William2014@"
+  },
+  "gps": {
+    "lat": -26.02378,
+    "lon": 27.96924
+  },
+  "sampling_rate": 300
+}
