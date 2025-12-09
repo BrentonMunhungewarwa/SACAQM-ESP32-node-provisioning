@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:27:F8",
+  "description": "Node at Mpho's House",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "CXNK0031E16F",
+    "password": "90ee57f9f32e3e08"
+  },
+  "gps": {
+    "lat": -26.03802,
+    "lon": 27.93664
+  },
+  "sampling_rate": 300
+}
