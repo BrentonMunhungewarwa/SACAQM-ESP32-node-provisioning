@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:B1:24",
+  "description": "Rooipoort Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "LibraryWIFI",
+    "password": "M3raf0ng@cc3ss"
+  },
+  "gps": {
+    "lat": -26.31288,
+    "lon": 27.37879
+  },
+  "sampling_rate": 300
+}
