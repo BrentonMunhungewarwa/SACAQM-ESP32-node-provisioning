@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:A8:84",
+  "description": "Batswaneng Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "B535_D28A",
+    "password": "eAR9NidLdqL"
+  },
+  "gps": {
+    "lat": -26.31687,
+    "lon": 27.32337
+  },
+  "sampling_rate": 300
+}
