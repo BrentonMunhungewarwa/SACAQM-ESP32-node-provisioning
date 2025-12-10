@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:50:F0:88",
+  "description": "Gokosi Old Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "GBN_KOK-LIB",
+    "password": "Alcom123"
+  },
+  "gps": {
+    "lat": -26.49442,
+    "lon": 27.46795
+  },
+  "sampling_rate": 300
+}
