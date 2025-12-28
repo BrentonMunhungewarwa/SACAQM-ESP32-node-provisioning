@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:4F:B0",
+  "description": "Modular Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "LibraryWIFI",
+    "password": "M3raf0ng@cc3ss"
+  },
+  "gps": {
+    "lat": -26.32874,
+    "lon": 27.32746
+  },
+  "sampling_rate": 300
+}
