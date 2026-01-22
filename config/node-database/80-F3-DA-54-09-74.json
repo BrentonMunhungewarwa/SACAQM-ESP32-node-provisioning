@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:09:74",
+  "description": "Nkone Maruping Primary School",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "GBN-WIFI",
+    "password": "GBN@1234"
+  },
+  "gps": {
+    "lat": -26.18859,
+    "lon": 27.84236
+  },
+  "sampling_rate": 300
+}
