@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:B3:D4",
+  "description": "BadirileLibrary",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "BadirileLibrary_Staff",
+    "password": "Alcom123"
+  },
+  "gps": {
+    "lat": -26.13631,
+    "lon": 27.58611
+  },
+  "sampling_rate": 300
+}
