@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:4B:18",
+  "description": "Randgate Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Randgate_Library Staff",
+    "password": "Alcom123"
+  },
+  "gps": {
+    "lat": -26.16942,
+    "lon": 27.68445
+  },
+  "sampling_rate": 300
+}
