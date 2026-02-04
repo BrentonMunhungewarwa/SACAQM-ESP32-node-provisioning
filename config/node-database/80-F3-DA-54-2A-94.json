@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:2A:94",
+  "description": "SYNERGIA1",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "rockyhq",
+    "password": "rocky567"
+  },
+  "gps": {
+    "lat": 53.88992,
+    "lon": -1.439518
+  },
+  "sampling_rate": 300
+}
