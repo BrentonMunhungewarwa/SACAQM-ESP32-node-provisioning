@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:8D:30",
+  "description": "Physics 2",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "WSOA",
+    "password": "arts.2025"
+  },
+  "gps": {
+    "lat": -26.19181,
+    "lon": 28.03129
+  },
+  "sampling_rate": 300
+}
