@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:E8:2C",
+  "description": "Tshimologong Node",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Fakugesi WIFI",
+    "password": "#moreflowyes"
+  },
+  "gps": {
+    "lat": -26.1982,
+    "lon": 28.03291
+  },
+  "sampling_rate": 300
+}
