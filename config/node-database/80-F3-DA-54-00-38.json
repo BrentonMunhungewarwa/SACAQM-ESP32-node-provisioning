@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:00:38",
+  "description": "Victory Park 1",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "schaffrath",
+    "password": "4711zz4711"
+  },
+  "gps": {
+    "lat": -26.12613,
+    "lon": 28.01559
+  },
+  "sampling_rate": 300
+}
