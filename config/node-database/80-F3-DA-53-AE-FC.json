@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:AE:FC",
+  "description": "Victory Park 2",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "FlatWiFi",
+    "password": "Me1nh0ff"
+  },
+  "gps": {
+    "lat": -26.12613,
+    "lon": 28.01559
+  },
+  "sampling_rate": 300
+}
