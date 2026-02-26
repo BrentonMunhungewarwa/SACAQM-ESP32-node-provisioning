@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:B4:64",
+  "description": "Boksburg 1",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Afrihost NA",
+    "password": "0743178721"
+  },
+  "gps": {
+    "lat": -26.16675,
+    "lon": 28.26258
+  },
+  "sampling_rate": 300
+}
