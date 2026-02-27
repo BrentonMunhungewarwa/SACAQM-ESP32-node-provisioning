@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:73:84",
+  "description": "NorthCliff",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "ZTE_BE52F0_2.4G",
+    "password": "32529228"
+  },
+  "gps": {
+    "lat": -26.15717,
+    "lon": 27.94416
+  },
+  "sampling_rate": 300
+}
