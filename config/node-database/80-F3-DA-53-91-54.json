@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:91:54",
+  "description": "Klipfontein",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HUAWEI_H122_1BEC",
+    "password": "ht2i9FhFqYD"
+  },
+  "gps": {
+    "lat": -25.91223,
+    "lon": 29.23466
+  },
+  "sampling_rate": 300
+}
