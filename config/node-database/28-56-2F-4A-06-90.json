@@ -1,6 +1,6 @@
 {
   "mac": "28:56:2F:4A:06:90",
-  "description": "sdcdw",
+  "description": "Testing Brenton's Code",
   "indoor_outdoor": "0",
   "firmware_version": "v1.0.0",
   "wifi": {
@@ -8,8 +8,8 @@
     "password": "70197266"
   },
   "gps": {
-    "lat": 0,
-    "lon": 0
+    "lat": -26.08943,
+    "lon": 28.00073
   },
   "sampling_rate": 300
 }
