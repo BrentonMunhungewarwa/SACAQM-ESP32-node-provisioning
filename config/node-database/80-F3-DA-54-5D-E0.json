@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:5D:E0",
+  "description": "Pretoria East",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Vodacom-F505BB",
+    "password": "83dFmScPO-472OqO"
+  },
+  "gps": {
+    "lat": -25.80564,
+    "lon": 28.33098
+  },
+  "sampling_rate": 300
+}
