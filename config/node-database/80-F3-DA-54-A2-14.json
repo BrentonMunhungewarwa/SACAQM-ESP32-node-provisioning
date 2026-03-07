@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:A2:14",
+  "description": "HOME_AQ1",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VODAFONE2104",
+    "password": "52GEMHN9YUMCFRNY"
+  },
+  "gps": {
+    "lat": -25.65121,
+    "lon": 28.25388
+  },
+  "sampling_rate": 300
+}
