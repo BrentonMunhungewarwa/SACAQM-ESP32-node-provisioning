@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:E5:BC",
+  "description": "11 Alexander Street",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "B535_1880",
+    "password": "MB7YaDe6Ny2"
+  },
+  "gps": {
+    "lat": -26.20821,
+    "lon": 28.03232
+  },
+  "sampling_rate": 300
+}
