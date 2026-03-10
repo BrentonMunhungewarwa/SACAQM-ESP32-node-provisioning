@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:2D:5C",
+  "description": "Inso Aluminum",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Inso",
+    "password": "0117084443"
+  },
+  "gps": {
+    "lat": 111,
+    "lon": 111
+  },
+  "sampling_rate": 300
+}
