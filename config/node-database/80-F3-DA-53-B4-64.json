@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:B4:64",
+  "description": "Lizzy Kya Sands",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Clayton",
+    "password": "William2014@"
+  },
+  "gps": {
+    "lat": -26.03604,
+    "lon": 27.95393
+  },
+  "sampling_rate": 300
+}
