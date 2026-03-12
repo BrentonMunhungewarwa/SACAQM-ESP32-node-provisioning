@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:9B:40",
+  "description": "Kensington; Clark.",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Clark",
+    "password": "Ecc87leS"
+  },
+  "gps": {
+    "lat": -26.19666,
+    "lon": 28.11745
+  },
+  "sampling_rate": 300
+}
