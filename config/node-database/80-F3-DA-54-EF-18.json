@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:EF:18",
+  "description": "Patio",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Zyxel_8D01",
+    "password": "788PKD8DAT"
+  },
+  "gps": {
+    "lat": -26.16735,
+    "lon": 28.0489
+  },
+  "sampling_rate": 300
+}
