@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:F0:00",
+  "description": "Houghton/Fellside",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HSPJB-G",
+    "password": "pickles,peanuts,1"
+  },
+  "gps": {
+    "lat": -26.16629,
+    "lon": 28.07555
+  },
+  "sampling_rate": 300
+}
