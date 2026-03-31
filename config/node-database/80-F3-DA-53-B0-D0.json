@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:B0:D0",
+  "description": "Thulani Secondary School",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "GPN-1201_THU-SEC-SCH",
+    "password": "Admin@2025"
+  },
+  "gps": {
+    "lat": -26.21677,
+    "lon": 27.82752
+  },
+  "sampling_rate": 300
+}
