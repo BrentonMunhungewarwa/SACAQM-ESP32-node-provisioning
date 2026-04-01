@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:8D:F0",
+  "description": "WRMD Office 1",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "WRDM-FIN1",
+    "password": "Yzpcr8h3"
+  },
+  "gps": {
+    "lat": -26.18018,
+    "lon": 27.70733
+  },
+  "sampling_rate": 300
+}
