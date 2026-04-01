@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:73:F8",
+  "description": "Midrand Senor",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Schroeder Kitchen",
+    "password": "Schroeder3703"
+  },
+  "gps": {
+    "lat": -26.00877,
+    "lon": 28.09707
+  },
+  "sampling_rate": 300
+}
