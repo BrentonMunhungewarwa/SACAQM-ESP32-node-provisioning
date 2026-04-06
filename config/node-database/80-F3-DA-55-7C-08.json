@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:7C:08",
+  "description": "Welgemoed",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "MWEB",
+    "password": "Marlyn29!"
+  },
+  "gps": {
+    "lat": -34.1567,
+    "lon": 18.43472
+  },
+  "sampling_rate": 300
+}
