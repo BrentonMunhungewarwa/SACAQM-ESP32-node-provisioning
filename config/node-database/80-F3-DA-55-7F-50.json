@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:7F:50",
+  "description": "Houghton Village",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "dlink-957X-2.4G-3200",
+    "password": "tbgsw46347"
+  },
+  "gps": {
+    "lat": -26.18,
+    "lon": 28.05255
+  },
+  "sampling_rate": 300
+}
