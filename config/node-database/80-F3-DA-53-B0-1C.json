@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:B0:1C",
+  "description": "Eastlands Benoni",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "WiFi Unit289-2",
+    "password": "K5v9n@01"
+  },
+  "gps": {
+    "lat": -26.05828,
+    "lon": 28.3332
+  },
+  "sampling_rate": 300
+}
