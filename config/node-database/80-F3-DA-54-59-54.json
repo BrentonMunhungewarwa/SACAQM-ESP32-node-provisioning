@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:59:54",
+  "description": "Datafree Bryanston",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "IOT",
+    "password": "Bolster-Shown-Cornbread6"
+  },
+  "gps": {
+    "lat": -26.054,
+    "lon": 28.02221
+  },
+  "sampling_rate": 300
+}
