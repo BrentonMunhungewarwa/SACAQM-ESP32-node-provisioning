@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:E9:F8",
+  "description": "Benoni Eastlands (West)",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HUAWEI_B311_506C",
+    "password": "24GeNFT654E"
+  },
+  "gps": {
+    "lat": -26.05865,
+    "lon": 28.32771
+  },
+  "sampling_rate": 300
+}
