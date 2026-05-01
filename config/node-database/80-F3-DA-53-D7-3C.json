@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:D7:3C",
+  "description": "Parkhurst 1",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "TP-LINK_CB49",
+    "password": "98417544"
+  },
+  "gps": {
+    "lat": -26.13868,
+    "lon": 28.01692
+  },
+  "sampling_rate": 300
+}
