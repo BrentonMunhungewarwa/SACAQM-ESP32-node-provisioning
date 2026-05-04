@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:81:64",
+  "description": "Mo Afrika",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Moafrika",
+    "password": "Moafrika@2025"
+  },
+  "gps": {
+    "lat": -26.26759,
+    "lon": 27.90177
+  },
+  "sampling_rate": 300
+}
