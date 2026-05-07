@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:93:DC",
+  "description": "11 Alexander Ferrierasdorp",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "B535_1880",
+    "password": "MB7YaDe6Ny2"
+  },
+  "gps": {
+    "lat": -26.20807,
+    "lon": 28.03249
+  },
+  "sampling_rate": 300
+}
