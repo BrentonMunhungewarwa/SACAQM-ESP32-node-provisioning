@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:57:4C",
+  "description": "Westdene 2",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Kim",
+    "password": "0826195050"
+  },
+  "gps": {
+    "lat": -26.18201,
+    "lon": 27.98529
+  },
+  "sampling_rate": 300
+}
