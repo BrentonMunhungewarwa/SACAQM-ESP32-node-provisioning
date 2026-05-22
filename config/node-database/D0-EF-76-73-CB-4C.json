@@ -1,15 +1,15 @@
 {
   "mac": "D0:EF:76:73:CB:4C",
-  "description": "Wedela Library",
+  "description": "Gstad East",
   "indoor_outdoor": "0",
   "firmware_version": "v1.0.0",
   "wifi": {
-    "ssid": "GBN_0557_WEDELA-LIBRARY",
-    "password": "Alcom123"
+    "ssid": "Linda",
+    "password": "lalkie2Yahweh"
   },
   "gps": {
-    "lat": -26.46106,
-    "lon": 27.38496
+    "lat": -26.7424,
+    "lon": 28.7692
   },
   "sampling_rate": 300
 }
