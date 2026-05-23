@@ -1,15 +1,15 @@
 {
   "mac": "80:F3:DA:50:BD:74",
-  "description": "WRDM Offices",
+  "description": "Gstad South",
   "indoor_outdoor": "0",
   "firmware_version": "v1.0.0",
   "wifi": {
-    "ssid": "WRDM-HLTH1",
-    "password": "kttFKp44"
+    "ssid": "Huis_WiFi",
+    "password": "Durantm1"
   },
   "gps": {
-    "lat": -26.18208,
-    "lon": 27.70146
+    "lat": -26.7474,
+    "lon": 28.75062
   },
   "sampling_rate": 300
 }
