@@ -1,15 +1,15 @@
 {
   "mac": "80:F3:DA:54:E5:BC",
-  "description": "11 Alexander Street",
+  "description": "Zyferfontein 47",
   "indoor_outdoor": "0",
   "firmware_version": "v1.0.0",
   "wifi": {
-    "ssid": "B535_1880",
-    "password": "MB7YaDe6Ny2"
+    "ssid": "Pruis WiFi",
+    "password": "Pruis@123"
   },
   "gps": {
-    "lat": -26.20821,
-    "lon": 28.03232
+    "lat": -26.76009,
+    "lon": 28.73549
   },
   "sampling_rate": 300
 }
