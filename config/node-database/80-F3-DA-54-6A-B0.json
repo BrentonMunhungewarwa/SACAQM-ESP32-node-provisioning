@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:6A:B0",
+  "description": "Broadacres CoJ Monitor",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Vuka0",
+    "password": "Talits007"
+  },
+  "gps": {
+    "lat": 0,
+    "lon": 0
+  },
+  "sampling_rate": 300
+}
