@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:85:34",
+  "description": "Mo Afrika Tladi Soweto",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HUAWEI_B535_4D49",
+    "password": "MoafrikaCCTV@2024"
+  },
+  "gps": {
+    "lat": -26.26135,
+    "lon": 27.84519
+  },
+  "sampling_rate": 300
+}
