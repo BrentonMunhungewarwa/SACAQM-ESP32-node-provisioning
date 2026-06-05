@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:50:DE:3C",
+  "description": "Benmore Gardens",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "25 Valley Rd",
+    "password": "0827199094"
+  },
+  "gps": {
+    "lat": -26.09155,
+    "lon": 28.04659
+  },
+  "sampling_rate": 300
+}
