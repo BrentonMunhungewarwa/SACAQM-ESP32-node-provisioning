@@ -467,6 +467,7 @@ void loop() {
             Serial.print(".");
         }
         Serial.println("\nWake up");
+        //This should allow for eventual recovery should Network connection go down
     } else {
         Serial.println(F("WiFi disconnected. Trying to reconnect..."));
         connectToWiFi();
