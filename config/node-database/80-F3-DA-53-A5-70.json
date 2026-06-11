@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:A5:70",
+  "description": "Vlakfontein 599",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HUAWEI-B315-9BF8",
+    "password": "B9H6ALN0DQT"
+  },
+  "gps": {
+    "lat": -26.76229,
+    "lon": 28.71294
+  },
+  "sampling_rate": 300
+}
