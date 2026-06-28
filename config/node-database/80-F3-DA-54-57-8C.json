@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:57:8C",
+  "description": "Aston Bay Eastern Cape",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Astons Unit 14",
+    "password": "A7t6n714"
+  },
+  "gps": {
+    "lat": -34.09226,
+    "lon": 24.89914
+  },
+  "sampling_rate": 300
+}
