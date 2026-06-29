@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:0C:E8",
+  "description": "Outdoor Node",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "KamHome",
+    "password": "Chingwanemazai#12"
+  },
+  "gps": {
+    "lat": -26.03583,
+    "lon": 27.97934
+  },
+  "sampling_rate": 300
+}
