@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:D7:10",
+  "description": "SYNERGIA Leeds 15",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "turnways_Guest",
+    "password": "Fishes123!"
+  },
+  "gps": {
+    "lat": 53.8407,
+    "lon": -1.643137
+  },
+  "sampling_rate": 300
+}
