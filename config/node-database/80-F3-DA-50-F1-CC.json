@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:50:F1:CC",
+  "description": "Zyferfontein 47",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Pruis WiFi",
+    "password": "Pruis@123"
+  },
+  "gps": {
+    "lat": -26.76007,
+    "lon": 28.73522
+  },
+  "sampling_rate": 300
+}
