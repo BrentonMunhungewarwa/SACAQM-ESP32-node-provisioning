@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:99:38",
+  "description": "Zyferfontein Farm 2",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "HUAWEI-B525-9484",
+    "password": "52NH11RF4LT"
+  },
+  "gps": {
+    "lat": -26.74706,
+    "lon": 28.698
+  },
+  "sampling_rate": 300
+}
