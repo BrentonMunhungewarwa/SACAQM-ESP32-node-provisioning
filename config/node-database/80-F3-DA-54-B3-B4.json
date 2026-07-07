@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:B3:B4",
+  "description": "SYNERGIA LEEDS 11",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VM6792831",
+    "password": "ypspzx6vJtctz2fx"
+  },
+  "gps": {
+    "lat": 53.56026,
+    "lon": -0.624615
+  },
+  "sampling_rate": 300
+}
