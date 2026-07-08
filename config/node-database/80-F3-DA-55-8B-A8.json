@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:8B:A8",
+  "description": "Synergia Leeds 16",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VM0630779",
+    "password": "n6zfMjfYqfhh"
+  },
+  "gps": {
+    "lat": 53.824,
+    "lon": -1.574135
+  },
+  "sampling_rate": 300
+}
