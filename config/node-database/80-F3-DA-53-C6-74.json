@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:C6:74",
+  "description": "17",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VM2607591",
+    "password": "fv6LswdvK7fr"
+  },
+  "gps": {
+    "lat": 53.82554,
+    "lon": -1.566061
+  },
+  "sampling_rate": 300
+}
