@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:F9:18",
+  "description": "SYNERGIA Leeds 13",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "BW-School",
+    "password": "BW-School#"
+  },
+  "gps": {
+    "lat": 53.81815,
+    "lon": -1.467668
+  },
+  "sampling_rate": 300
+}
