@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:CB:74",
+  "description": "Demo",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Pixel_2910",
+    "password": "69066985"
+  },
+  "gps": {
+    "lat": 53.82298,
+    "lon": -1.57448
+  },
+  "sampling_rate": 300
+}
