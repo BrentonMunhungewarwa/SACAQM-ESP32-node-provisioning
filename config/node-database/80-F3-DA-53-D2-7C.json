@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:D2:7C",
+  "description": "Synergia Leeds 21",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Manhorne",
+    "password": "11102008"
+  },
+  "gps": {
+    "lat": 53.83257,
+    "lon": -1.560759
+  },
+  "sampling_rate": 300
+}
