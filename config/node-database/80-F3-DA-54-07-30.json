@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:07:30",
+  "description": "SYNERGIA Leeds 33",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "What is your Wi-Fi?",
+    "password": "VerySecuredPassword123?"
+  },
+  "gps": {
+    "lat": 53.81023,
+    "lon": -1.528633
+  },
+  "sampling_rate": 300
+}
