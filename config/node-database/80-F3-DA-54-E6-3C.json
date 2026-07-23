@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:E6:3C",
+  "description": "SYNERGIALEEDS28",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Vodafone5CAF9F",
+    "password": "dmtPPq6q7fnKqn2J"
+  },
+  "gps": {
+    "lat": 53.81004,
+    "lon": -1.588231
+  },
+  "sampling_rate": 300
+}
