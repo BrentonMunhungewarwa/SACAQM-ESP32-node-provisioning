@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:2E:40",
+  "description": "SYNERGIA Leeds 27",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Greenhouse",
+    "password": "totoro2001"
+  },
+  "gps": {
+    "lat": 53.78604,
+    "lon": -1.5889
+  },
+  "sampling_rate": 300
+}
