@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:F3:CC",
+  "description": "Mo Africa 2nd Deployment",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Security",
+    "password": "12345678"
+  },
+  "gps": {
+    "lat": -26.26126,
+    "lon": 27.84522
+  },
+  "sampling_rate": 300
+}
