@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:64:A4",
+  "description": "Lufhereng 2nd Deployment",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "LufherengOnline",
+    "password": "#2024@Lufhereng1"
+  },
+  "gps": {
+    "lat": -26.23933,
+    "lon": 27.80123
+  },
+  "sampling_rate": 300
+}
