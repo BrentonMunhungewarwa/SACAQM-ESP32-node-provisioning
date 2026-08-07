@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:AF:DC",
+  "description": "Air Filter MOnitor",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Afrihost KE_Wi-Fi5",
+    "password": "kwarralumpur"
+  },
+  "gps": {
+    "lat": -26.13536,
+    "lon": 28.05892
+  },
+  "sampling_rate": 300
+}
