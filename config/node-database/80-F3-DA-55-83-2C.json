@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:83:2C",
+  "description": "Testing",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Brenton's S23",
+    "password": "Hi_there"
+  },
+  "gps": {
+    "lat": -26.19173,
+    "lon": 28.03138
+  },
+  "sampling_rate": 300
+}
