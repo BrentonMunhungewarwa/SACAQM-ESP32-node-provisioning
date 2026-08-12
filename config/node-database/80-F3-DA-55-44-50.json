@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:44:50",
+  "description": "SYNERGIA Leeds 34",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Linksys10104",
+    "password": "4Baggers"
+  },
+  "gps": {
+    "lat": 53.75531,
+    "lon": -1.603744
+  },
+  "sampling_rate": 300
+}
