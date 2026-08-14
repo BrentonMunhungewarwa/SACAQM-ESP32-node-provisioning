@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:B3:4C",
+  "description": "Shadwell Node",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "BT-XNA65P",
+    "password": "QJ9rgfUyGfAdKx"
+  },
+  "gps": {
+    "lat": 53.85605,
+    "lon": -1.499097
+  },
+  "sampling_rate": 300
+}
