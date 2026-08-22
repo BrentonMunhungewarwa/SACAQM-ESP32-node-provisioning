@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:41:A0",
+  "description": "Outdoor AQ node",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Zyxel_62D1",
+    "password": "JFKGNRCYTD"
+  },
+  "gps": {
+    "lat": -26.17459,
+    "lon": 28.03504
+  },
+  "sampling_rate": 300
+}
