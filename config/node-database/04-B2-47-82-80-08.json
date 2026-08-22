@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:80:08",
+  "description": "Parkview Wheridan",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Craig's Wi-Fi Network",
+    "password": "sheridan@wits"
+  },
+  "gps": {
+    "lat": -26.16034,
+    "lon": 28.02054
+  },
+  "sampling_rate": 300
+}
