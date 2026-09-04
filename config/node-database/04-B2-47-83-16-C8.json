@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:83:16:C8",
+  "description": "Outdoor Node",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Nacho Wi-Fi",
+    "password": "@0788265633#"
+  },
+  "gps": {
+    "lat": 0,
+    "lon": 0
+  },
+  "sampling_rate": 300
+}
