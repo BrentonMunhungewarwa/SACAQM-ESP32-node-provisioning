@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:35:9C",
+  "description": "Merafong Municipality Office",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Merafong_Wi-Fi",
+    "password": "M3r@nGwl@n#"
+  },
+  "gps": {
+    "lat": -26.35753,
+    "lon": 27.39719
+  },
+  "sampling_rate": 300
+}
