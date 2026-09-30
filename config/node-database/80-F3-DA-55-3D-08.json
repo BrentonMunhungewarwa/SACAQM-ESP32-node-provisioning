@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:3D:08",
+  "description": "Moortown Corner CG",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "4G-WiFi-J2KZ-2.4GHz",
+    "password": "Campbell21524"
+  },
+  "gps": {
+    "lat": 53.84301,
+    "lon": -1.53777
+  },
+  "sampling_rate": 300
+}
