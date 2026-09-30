@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:5E:C0",
+  "description": "Continental Office 1 new",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Mamba_Corp",
+    "password": "M@mb@123"
+  },
+  "gps": {
+    "lat": -24.98894,
+    "lon": 27.54501
+  },
+  "sampling_rate": 300
+}
