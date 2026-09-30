@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:EE:BC",
+  "description": "Generation Imhoff 1",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "GenStuIM",
+    "password": "G3n@5tu9"
+  },
+  "gps": {
+    "lat": -34.14108,
+    "lon": 18.34674
+  },
+  "sampling_rate": 300
+}
