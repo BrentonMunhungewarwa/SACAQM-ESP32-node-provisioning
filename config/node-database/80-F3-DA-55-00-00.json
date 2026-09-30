@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:55:00:00",
+  "description": "Khutsong South Ext5",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VR-4254-5841",
+    "password": "s7w7m6w3"
+  },
+  "gps": {
+    "lat": -26.35388,
+    "lon": 27.349
+  },
+  "sampling_rate": 300
+}
