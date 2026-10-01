@@ -1,0 +1,15 @@
+{
+  "mac": "28:56:2F:4A:80:5C",
+  "description": "Mamba packing new",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Mamba_Corp",
+    "password": "M@mb@123"
+  },
+  "gps": {
+    "lat": -24.98881,
+    "lon": 27.54503
+  },
+  "sampling_rate": 300
+}
