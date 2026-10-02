@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:62:FC",
+  "description": "SYNERGIA Leeds 42",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "4G-WiFi-J2KZ-2.4GHz",
+    "password": "Campbell21524"
+  },
+  "gps": {
+    "lat": 53.84298,
+    "lon": -1.537747
+  },
+  "sampling_rate": 300
+}
