@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:9E:6C",
+  "description": "Air Quality Reference System",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "D-Link-2.4G",
+    "password": "E93961ACDCCF5FFC8F07"
+  },
+  "gps": {
+    "lat": -26.04884,
+    "lon": 27.97768
+  },
+  "sampling_rate": 300
+}
