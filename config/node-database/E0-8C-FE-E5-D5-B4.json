@@ -1,0 +1,15 @@
+{
+  "mac": "E0:8C:FE:E5:D5:B4",
+  "description": "Air Quality Reference Sensor",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "EnergyLab",
+    "password": "3n3rgyl@b!"
+  },
+  "gps": {
+    "lat": -26.19149,
+    "lon": 28.0259
+  },
+  "sampling_rate": 300
+}
