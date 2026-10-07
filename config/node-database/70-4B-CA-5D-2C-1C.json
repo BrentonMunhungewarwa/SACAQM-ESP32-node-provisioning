@@ -1,0 +1,15 @@
+{
+  "mac": "70:4B:CA:5D:2C:1C",
+  "description": "Wilkes Rd Pietermaritzburg",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "The Promised LAN",
+    "password": "sceptre08!"
+  },
+  "gps": {
+    "lat": -29.60545,
+    "lon": 30.34216
+  },
+  "sampling_rate": 300
+}
