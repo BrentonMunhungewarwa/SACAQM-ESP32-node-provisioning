@@ -1,0 +1,15 @@
+{
+  "mac": "EC:E3:34:1B:87:9C",
+  "description": "Outdoor Node 47",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "SKY3NGQ9",
+    "password": "r9IALndMPST3"
+  },
+  "gps": {
+    "lat": 53.8003,
+    "lon": -1.598361
+  },
+  "sampling_rate": 300
+}
