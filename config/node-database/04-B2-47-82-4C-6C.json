@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:4C:6C",
+  "description": "Shapeville Reception 2",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Monument - WiFi",
+    "password": "@Sville!Monu#500%"
+  },
+  "gps": {
+    "lat": -26.68703,
+    "lon": 27.87065
+  },
+  "sampling_rate": 300
+}
