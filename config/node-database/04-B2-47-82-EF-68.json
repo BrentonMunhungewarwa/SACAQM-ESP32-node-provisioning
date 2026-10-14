@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:EF:68",
+  "description": "SYNERGIA Leeds 41a",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "CRTWLAN",
+    "password": "Bw29a67f23w48c9hw0"
+  },
+  "gps": {
+    "lat": 53.83959,
+    "lon": -1.716284
+  },
+  "sampling_rate": 300
+}
