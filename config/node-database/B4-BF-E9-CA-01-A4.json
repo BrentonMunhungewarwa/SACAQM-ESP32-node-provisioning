@@ -1,0 +1,15 @@
+{
+  "mac": "B4:BF:E9:CA:01:A4",
+  "description": "Evotel POP Station",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "NetNineNine_H7FU",
+    "password": "G#x4qGwcH#"
+  },
+  "gps": {
+    "lat": -26.32317,
+    "lon": 27.68356
+  },
+  "sampling_rate": 300
+}
