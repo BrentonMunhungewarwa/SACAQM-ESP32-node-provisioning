@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:4C:34",
+  "description": "SYNERGIA Leeds 48",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Boston Spa Village Hall",
+    "password": "BSPAVH99"
+  },
+  "gps": {
+    "lat": 53.90398,
+    "lon": -1.344478
+  },
+  "sampling_rate": 300
+}
