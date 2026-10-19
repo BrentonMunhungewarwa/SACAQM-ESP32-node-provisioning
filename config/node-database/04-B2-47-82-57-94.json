@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:57:94",
+  "description": "SYNERGIA Leeds 17",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "TP-Link_9EDE",
+    "password": "13952280"
+  },
+  "gps": {
+    "lat": 53.78247,
+    "lon": -1.528093
+  },
+  "sampling_rate": 300
+}
