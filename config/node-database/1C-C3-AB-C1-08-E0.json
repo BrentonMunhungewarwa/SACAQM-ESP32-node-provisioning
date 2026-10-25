@@ -1,0 +1,15 @@
+{
+  "mac": "1C:C3:AB:C1:08:E0",
+  "description": "SYNERGIA Leeds 20",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Lido",
+    "password": "GreenVan1"
+  },
+  "gps": {
+    "lat": 53.85242,
+    "lon": -1.640469
+  },
+  "sampling_rate": 300
+}
