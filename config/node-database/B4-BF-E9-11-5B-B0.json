@@ -1,0 +1,15 @@
+{
+  "mac": "B4:BF:E9:11:5B:B0",
+  "description": "Peakfire(SACAQM)01",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "peakfire",
+    "password": "elnino2026"
+  },
+  "gps": {
+    "lat": -2.1782,
+    "lon": 113.882
+  },
+  "sampling_rate": 300
+}
