@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:6D:F8",
+  "description": "Lomoteng Office #1",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "LIDINO ADMIN 1",
+    "password": "lidino2019"
+  },
+  "gps": {
+    "lat": -28.03575,
+    "lon": 23.01828
+  },
+  "sampling_rate": 300
+}
