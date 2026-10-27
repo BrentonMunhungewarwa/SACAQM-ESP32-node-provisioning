@@ -1,0 +1,15 @@
+{
+  "mac": "EC:E3:34:1B:DB:FC",
+  "description": "Wits Showcare",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Hisense F35 Pro",
+    "password": "00000001"
+  },
+  "gps": {
+    "lat": -26.19161,
+    "lon": 28.03123
+  },
+  "sampling_rate": 300
+}
