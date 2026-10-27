@@ -1,0 +1,15 @@
+{
+  "mac": "28:05:A5:31:35:48",
+  "description": "Semunye Community Library",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Simunye_Library Staff",
+    "password": "Alcom@123"
+  },
+  "gps": {
+    "lat": -26.32552,
+    "lon": 27.67703
+  },
+  "sampling_rate": 300
+}
