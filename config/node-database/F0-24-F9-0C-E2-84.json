@@ -1,0 +1,15 @@
+{
+  "mac": "F0:24:F9:0C:E2:84",
+  "description": "Bekkersdal Library",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Bekkersdal_Library Staff",
+    "password": "$ir$idesk1"
+  },
+  "gps": {
+    "lat": -26.28694,
+    "lon": 27.70338
+  },
+  "sampling_rate": 300
+}
