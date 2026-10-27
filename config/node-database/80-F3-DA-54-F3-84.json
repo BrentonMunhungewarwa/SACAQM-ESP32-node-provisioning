@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:F3:84",
+  "description": "Venterspost Library",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Venterspost_Library Staff",
+    "password": "$ir$idesk1"
+  },
+  "gps": {
+    "lat": -26.26667,
+    "lon": 27.62182
+  },
+  "sampling_rate": 300
+}
