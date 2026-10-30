@@ -1,0 +1,15 @@
+{
+  "mac": "B4:BF:E9:CA:00:38",
+  "description": "Outdoor node",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Zyxel_62D1",
+    "password": "JFKGNRCYTD"
+  },
+  "gps": {
+    "lat": -26.17459,
+    "lon": 28.03519
+  },
+  "sampling_rate": 300
+}
