@@ -1,0 +1,15 @@
+{
+  "mac": "8C:94:DF:90:18:1C",
+  "description": "PEAKFire-Tuanan",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Wagaifagai",
+    "password": "Gismokingofthejungle"
+  },
+  "gps": {
+    "lat": -2.151661,
+    "lon": 114.441
+  },
+  "sampling_rate": 300
+}
