@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:59:CC",
+  "description": "Peakfire07",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "peakfire",
+    "password": "elnino2026"
+  },
+  "gps": {
+    "lat": -2.178134,
+    "lon": 113.8821
+  },
+  "sampling_rate": 300
+}
