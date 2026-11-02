@@ -1,0 +1,15 @@
+{
+  "mac": "E0:8C:FE:E5:D4:88",
+  "description": "Peakfire06",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "peakfire",
+    "password": "elnino2026"
+  },
+  "gps": {
+    "lat": -2.178134,
+    "lon": 113.8821
+  },
+  "sampling_rate": 300
+}
