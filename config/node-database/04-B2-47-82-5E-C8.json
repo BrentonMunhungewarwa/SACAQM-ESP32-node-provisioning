@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:5E:C8",
+  "description": "Outdoor node 51",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VM6339691",
+    "password": "yzpnads8ksnCerre"
+  },
+  "gps": {
+    "lat": 53.85456,
+    "lon": -1.575381
+  },
+  "sampling_rate": 300
+}
