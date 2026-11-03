@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:53:B2:88",
+  "description": "SYNERGIA Leeds 44",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "PLUSNET-Z9C39M",
+    "password": "YTr6k9MugafdTL"
+  },
+  "gps": {
+    "lat": 53.80029,
+    "lon": -1.3663
+  },
+  "sampling_rate": 300
+}
