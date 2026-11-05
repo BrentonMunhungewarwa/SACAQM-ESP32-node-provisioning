@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:89:1C",
+  "description": "Glenharvie Library",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Glenharvie_Library  Staff",
+    "password": "$ir$idesk1"
+  },
+  "gps": {
+    "lat": -26.38991,
+    "lon": 27.61639
+  },
+  "sampling_rate": 300
+}
