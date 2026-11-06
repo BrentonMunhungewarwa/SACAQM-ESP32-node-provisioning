@@ -1,0 +1,15 @@
+{
+  "mac": "B4:BF:E9:C9:EC:E0",
+  "description": "SYNERGIA Leeds 54",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "BT-Topofthehill",
+    "password": "14VegSamosas?"
+  },
+  "gps": {
+    "lat": 53.82247,
+    "lon": -1.523426
+  },
+  "sampling_rate": 300
+}
