@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:61:8C",
+  "description": "LINDHAVEN Roodepoort",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "H3601P_46D7",
+    "password": "U5K3hNHP"
+  },
+  "gps": {
+    "lat": -26.14825,
+    "lon": 27.84242
+  },
+  "sampling_rate": 300
+}
