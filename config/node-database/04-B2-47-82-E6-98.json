@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:E6:98",
+  "description": "SYNERGIA Leeds 50",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "PLUSNET-C3HP",
+    "password": "4a8bd89af2"
+  },
+  "gps": {
+    "lat": 53.83813,
+    "lon": -1.546261
+  },
+  "sampling_rate": 300
+}
