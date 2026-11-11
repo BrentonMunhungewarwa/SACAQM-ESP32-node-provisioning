@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:4E:50",
+  "description": "Benoni Westdene",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "VoxLTE",
+    "password": "8LH31E01M3B"
+  },
+  "gps": {
+    "lat": -26.19779,
+    "lon": 28.29572
+  },
+  "sampling_rate": 300
+}
