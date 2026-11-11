@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:6C:5C",
+  "description": "Benoni Lakefield North",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "airCube-C76",
+    "password": "7QNZvPMiAS4"
+  },
+  "gps": {
+    "lat": -26.18011,
+    "lon": 28.28558
+  },
+  "sampling_rate": 300
+}
