@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:5A:60",
+  "description": "River club Sandton",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Karen",
+    "password": "BT35LJGP#"
+  },
+  "gps": {
+    "lat": -26.07131,
+    "lon": 28.04437
+  },
+  "sampling_rate": 300
+}
