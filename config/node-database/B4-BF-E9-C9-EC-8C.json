@@ -1,0 +1,15 @@
+{
+  "mac": "B4:BF:E9:C9:EC:8C",
+  "description": "Westonaria Library",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Westonaria_library Staff",
+    "password": "$ir$idesk1"
+  },
+  "gps": {
+    "lat": -26.33015,
+    "lon": 27.65266
+  },
+  "sampling_rate": 300
+}
