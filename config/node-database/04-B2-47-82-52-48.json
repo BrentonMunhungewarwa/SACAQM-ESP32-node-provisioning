@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:52:48",
+  "description": "Equipment Lab OHM",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "OHM",
+    "password": "Keet8510!"
+  },
+  "gps": {
+    "lat": -33.6883,
+    "lon": 18.44886
+  },
+  "sampling_rate": 300
+}
