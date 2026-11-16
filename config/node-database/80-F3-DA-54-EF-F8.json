@@ -1,0 +1,15 @@
+{
+  "mac": "80:F3:DA:54:EF:F8",
+  "description": "Lab",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "OHM",
+    "password": "Keet8510!"
+  },
+  "gps": {
+    "lat": -33.68822,
+    "lon": 18.44872
+  },
+  "sampling_rate": 300
+}
