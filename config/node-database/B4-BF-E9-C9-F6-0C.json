@@ -1,0 +1,15 @@
+{
+  "mac": "B4:BF:E9:C9:F6:0C",
+  "description": "SYNERGIA Leeds 11a",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Zyxel_DB61",
+    "password": "Kestrel1?"
+  },
+  "gps": {
+    "lat": 53.82275,
+    "lon": -1.646004
+  },
+  "sampling_rate": 300
+}
