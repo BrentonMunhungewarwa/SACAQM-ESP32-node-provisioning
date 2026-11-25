@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:85:E0",
+  "description": "Isert lab Inside Chamber",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "itest2",
+    "password": "12345678"
+  },
+  "gps": {
+    "lat": -25.67859,
+    "lon": 28.27309
+  },
+  "sampling_rate": 300
+}
