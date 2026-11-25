@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:4A:A8",
+  "description": "Isert testing lab(outside chamber)",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "iSERT Wi-Fi",
+    "password": "iSERT 123"
+  },
+  "gps": {
+    "lat": -25.67854,
+    "lon": 28.27316
+  },
+  "sampling_rate": 300
+}
