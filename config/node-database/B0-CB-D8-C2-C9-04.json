@@ -1,0 +1,15 @@
+{
+  "mac": "B0:CB:D8:C2:C9:04",
+  "description": "SYNERGIA LEEDS 12",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Zen Internet - FRITZ!Box CW",
+    "password": "32925528354205261972"
+  },
+  "gps": {
+    "lat": 53.7884,
+    "lon": -1.517604
+  },
+  "sampling_rate": 300
+}
