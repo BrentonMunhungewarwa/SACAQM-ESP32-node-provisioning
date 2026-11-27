@@ -1,0 +1,15 @@
+{
+  "mac": "A8:03:2A:F2:4B:F0",
+  "description": "Yorkshire Dance",
+  "indoor_outdoor": "0",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Yorkshire Dance Centre Trust",
+    "password": "Yorkshire@Trust2016"
+  },
+  "gps": {
+    "lat": 53.7972,
+    "lon": -1.533193
+  },
+  "sampling_rate": 300
+}
