@@ -1,0 +1,15 @@
+{
+  "mac": "04:B2:47:82:5E:80",
+  "description": "Tshimologong",
+  "indoor_outdoor": "1",
+  "firmware_version": "v1.0.0",
+  "wifi": {
+    "ssid": "Fakugesi",
+    "password": "#moreflowyes"
+  },
+  "gps": {
+    "lat": -26.19463,
+    "lon": 28.03157
+  },
+  "sampling_rate": 300
+}
